@@ -1,6 +1,5 @@
 ﻿using CoverX.Api.Services;
 using Xunit;
-
 namespace CoverX.Api.Tests
 {
     public class CalculatorServiceTests
