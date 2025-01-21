@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3Lf3LYDg78+KU3lnNqkS/bYIiJrwXXpl2evD6eNOmLk=",
+  "Source": "CoverX.Api",
+  "BasePath": "_content/CoverX.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
