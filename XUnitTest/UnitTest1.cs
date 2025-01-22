@@ -26,7 +26,7 @@ namespace CoverX.Api.Tests
         }
 
         [Fact]
-        public void Substract_ShouldReturnCorrectSum()
+        public void Substract_ShouldReturnCorrectResult()
         {
             // Arrange 
             int a = 10;
@@ -37,6 +37,20 @@ namespace CoverX.Api.Tests
 
             // Assert
             Assert.Equal(8, result);
+        }
+
+        [Fact]
+        public void Multiplication_ShouldReturnCorrectResult()
+        {
+            // Arrange 
+            int a = 10;
+            int b = 2;
+
+            // Act
+            var result = _calculator.Multiplication(a, b);
+
+            // Assert
+            Assert.Equal(20, result);
         }
     }
 }
